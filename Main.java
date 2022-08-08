@@ -23,6 +23,7 @@ public class Main {
 		System.out.print("BIENVENIDO A ALQUIATUOS S.A.S\n");
 
 		do {
+			System.out.print("cargando el menu....\n");
 			vr = m.menu(x);
 			// System.out.println("Vr: "+vr+"\n");
 
