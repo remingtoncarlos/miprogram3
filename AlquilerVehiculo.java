@@ -1,5 +1,5 @@
 /*
-                                CLASE PRINCIPAL
+                                CLASE PRINCIPAL O PLANTILLA
 Por: Carlos Alberto Alegria V
 
  */
@@ -7,19 +7,20 @@ package alquilervehiculos2;
 
 public class AlquilerVehiculo {
 	private int matricula;
-	private String tipo_vehiculo,fecha;
-	
-//CONSTRUCTOR
+	private String tipo_vehiculo, fecha;
+
+	// CONSTRUCTOR
 	public AlquilerVehiculo() {
 		super();
 	}
-// *********************** para polimorfimos	
-	public String  registro() {
-		return "MAtricula: "+matricula+", Tipo vehiculo: "+tipo_vehiculo+", Fecha: "+fecha;
+
+	// *********************** para polimorfimos
+	public String registro() {
+		return "MAtricula: " + matricula + ", Tipo vehiculo: " + tipo_vehiculo + ", Fecha: " + fecha;
 	}
-//****************************************************
-	
-//METODOS GETT Y SETT
+	// ****************************************************
+
+	// METODOS GETT Y SETT
 	public int getMatricula() {
 		return matricula;
 	}
@@ -44,6 +45,4 @@ public class AlquilerVehiculo {
 		this.fecha = fecha;
 	}
 
-	
-	
 }
